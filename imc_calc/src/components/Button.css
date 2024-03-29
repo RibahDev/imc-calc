@@ -6,12 +6,13 @@ button {
     color: #ffff;
     cursor: pointer;
     transition: .5s;
-    opacity: .9;
+    opacity: .8;
+    border-radius: 60px;
     flex: 1;
 }
 
 button:hover {
-    transition: .8s;
+    transition: .5s;
     opacity: 1;
 }
 
