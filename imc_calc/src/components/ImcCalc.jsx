@@ -8,9 +8,8 @@ const ImcCalc = () => {
 
     const clearForm = (e) => {
         e.preventDefault();
-        setHeight("");
         setWeight("");
-        
+        setHeight("");
     }
 
   return (
