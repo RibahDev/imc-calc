@@ -56,17 +56,17 @@
 }
 
 .good {
-    color: #12db34;
+    color: #01f029;
 }
 
 .low {
-    color: #dbce12;
+    color: #f0e002;
 }
 
-.midium {
-    color: #db6212;
+.medium {
+    color: #ff9d00;
 }
 
 .high {
-    color: #db1912;
+    color: #ff0800;
 }
