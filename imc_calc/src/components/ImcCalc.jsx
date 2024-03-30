@@ -3,13 +3,17 @@ import "./ImcCalc.css";
 import Button from "./Button";
 
 const ImcCalc = () => {
-    const{height, setHeight} = useState("");
-    const{weight, setWeight} = useState("");
+    const [height, setHeight] = useState("");
+    const [weight, setWeight] = useState("");
 
     const clearForm = (e) => {
         e.preventDefault();
         setWeight("");
         setHeight("");
+    }
+
+    const handleHeightChange = (e) => {
+
     }
 
   return (
@@ -19,7 +23,7 @@ const ImcCalc = () => {
             <div className="form-inputs">
                 <div className="form-control">
                     <label htmlFor="height">Altura:</label>
-                    <input type="text" name="height" id="height" placeholder="Ex: 1,75" onChange={(e) => setHeight(e.target.value)} value={height}/>
+                    <input type="text" name="height" id="height" placeholder="Ex: 1,75" onChange={(e) => handleHeightChange(e)} value={height}/>
                 </div>
                 <div className="form-control">
                     <label htmlFor="weight">Peso:</label>
